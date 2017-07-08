@@ -1,13 +1,4 @@
-# Minecraft Helper
-Do you need help with minecraft commands or even plguins. This program is a easy file but big that can help you with plugins, normal commands, Command-Blocks and even configs if you wish to add a subject to our list open a pull request and DO not use markdown on it or it will not work with our code. If you see any issues please report them on our github issue page.
-
-### Who made this??
-HaZe_Pug made this 
-1. Becuse he likes coding
-2. He likes helping people
-
-### I want to request a plugin but dont want to write the text
-Fine by me just head onto our issues plage and suggest it there if there is a issue template just delete it and start fresh we will get back to you soon as we can.
-
-### I want you to make something else
-Suggest it on the issues page as well
+This project was made by HaZe_Pug any issues please contact me @ hazepug@tazerservers.ml report issues 
+on our git hub you can find our github by pressing git hub on the main menu This mini program can teach 
+ you the basics or advanced skills on mc plugins if you would like me to add a plugin to showcase on here 
+please suggest it on git hub. 
