@@ -246,6 +246,54 @@ cls
 color b
 goto pex
 
+:pex_1
+echo To create a group itvis quite easy to do 
+echo all you have to do is
+echo /pex group GROUP_NAME create
+echo That easy its the same to delete it
+echo /pex group GROUP_NAME delete
+echo.
+echo Press any button to return to the menu
+PAUSE
+cls
+goto pex
+
+:pex_2
+echo Adding permissions are a basic skill snd you will need this
+echo skill for alot of things.
+echo To add a permission to a group
+echo /pex group GROUP_NAME add PERMISSION.NODE
+echo and pretty much the same for a user
+echo /pex user %Config_Line_2%
+echo.
+echo Press any button to go back to the pex menu
+PAUSE
+goto pex
+
+
+:pex_3
+echo Adding a suffix or prefix is quite easy but some people may come across
+echo issues but i am going to list them at the bottem
+echo.
+echo Adding a prefix to a group
+echo /pex group GROUP_NAME prefix Prefix_gose_here
+echo.
+echo Adding a suffix to a group
+echo /pex group GROUP_NAME suffix Suffix_gose_here
+echo.
+echo Adding a prefix to a user
+echo /pex user %Config_Line_2% prefix prefix_gose_here
+echob.
+echo Adding a suffix to a user
+echo /pex user %Config_Line_1% suffix suffix_gose_here
+echo.
+echo Issues
+echo Adding spaces to prefixes or suffixes
+echo You may want to add a space to your prefix or suffix to do this you
+echo need to add "" to your varible so like
+echo /pex group GROUP_NAME prefix "Prefix gose here"
+PAUSE
+goto pex
 :config
 echo MC Name = >> settings.config
 echo YOUR_MC_NAME >> settings.config
