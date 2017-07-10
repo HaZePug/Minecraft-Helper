@@ -285,7 +285,7 @@ echo Adding a prefix to a user
 echo /pex user %Config_Line_2% prefix prefix_gose_here
 echob.
 echo Adding a suffix to a user
-echo /pex user %Config_Line_1% suffix suffix_gose_here
+echo /pex user %Config_Line_2% suffix suffix_gose_here
 echo.
 echo Issues
 echo Adding spaces to prefixes or suffixes
@@ -298,3 +298,5 @@ goto pex
 echo MC Name = >> settings.config
 echo YOUR_MC_NAME >> settings.config
 echo update-auto = (Dose not work at the minute) >> settings.config
+echo Develpor Mode >> settings.config
+echo false >> settings.config
